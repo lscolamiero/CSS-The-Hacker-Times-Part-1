@@ -4,7 +4,6 @@
 .newspaper-container {
     width: 700px;
     margin: 0 auto;
-    /* background-color: #eee; */
     background-color: white;
     border-radius: 25px;
     box-shadow: 2px 2px 4px grey;
@@ -28,9 +27,9 @@ p {
   font-family: 'Roboto Slab';
 }
 
-* {
-    /* outline: 1px solid red; */
-}
+/* * {
+    outline: 1px solid red;
+} */
 
 h1 {
     color: black;
@@ -66,10 +65,6 @@ nav {
     border: 2px solid black;
 }
 
-ul {
-
-}
-
 a {
     color: inherit;
     text-decoration: none;
@@ -102,13 +97,13 @@ li {
     text-align: justify;
   }
 
-  .paragraph-edit {
+  /* .paragraph-edit {
     width: 285px;
     font-size: 10px;
     margin-left: 20px;
     margin-right: 5px;
     text-align: justify;
-  }
+  } */
 
   .paragraph-bonus {
     width: 190px;
@@ -123,33 +118,14 @@ li {
   }
 
   .more-articles {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
   }
 
   section {
-    width: 300px;
-  }
-
-  section:nth-of-type(1) {
-    margin-left: 20px;
-  }
-
-  section:nth-of-type(2) {
-    margin-left: 60px;
-  }
-
-  section:nth-of-type(3) {
     width: 200px;
     margin-left: 20px;
-  }
-  section:nth-of-type(4) {
-    width: 200px;
-    margin-left: 30px;
-  }
-
-  section:nth-of-type(5) {
-    width: 200px;
-    margin-left: 25px;
   }
 
   footer {
@@ -159,9 +135,3 @@ li {
     font-weight: bolder;
     text-align: center;
   }
-
- /*  .more-articles {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-  } */
-
