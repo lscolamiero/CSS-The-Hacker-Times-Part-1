@@ -17,9 +17,16 @@
 
 body {
     background-color: #eee;
-    font-family: ;
+    font-family: 'Source Sans Pro';
 }
 
+header {
+  font-family: 'Abril Fatface';
+}
+
+p {
+  font-family: 'Roboto Slab';
+}
 
 * {
     /* outline: 1px solid red; */
