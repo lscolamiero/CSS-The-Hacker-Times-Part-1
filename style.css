@@ -36,6 +36,11 @@ h1 {
     color: black;
     text-align: center;
     font-weight: bolder;
+    font-size: 2em;
+}
+
+h2 {
+  text-align: left;
 }
 
 h3 {
@@ -47,16 +52,22 @@ h5 {
 }
 
 nav {
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: #eee;
     text-align: center;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
     padding-right: 15px;
     padding-left: 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+    border: 2px solid black;
 }
 
 ul {
-    /* margin-right: 20px; */
-    float: left;
+
 }
 
 a {
@@ -142,7 +153,9 @@ li {
   }
 
   footer {
-    background-color: antiquewhite;
+    background-color: #eee;
     border-radius: 25px;
     margin: 5px 10px 0px 5px;
+    font-weight: bolder;
+    text-align: center;
   }
