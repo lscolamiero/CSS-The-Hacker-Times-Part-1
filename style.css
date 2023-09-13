@@ -159,3 +159,9 @@ li {
     font-weight: bolder;
     text-align: center;
   }
+
+ /*  .more-articles {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  } */
+
