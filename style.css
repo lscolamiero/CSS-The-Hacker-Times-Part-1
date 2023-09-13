@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
+
 .newspaper-container {
     width: 700px;
     margin: 0 auto;
@@ -16,6 +17,7 @@
 
 body {
     background-color: #eee;
+    font-family: ;
 }
 
 
@@ -27,6 +29,10 @@ h1 {
     color: black;
     text-align: center;
     font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
 }
 
 h5 {
@@ -66,6 +72,12 @@ li {
     width: 700px;
   }
 
+  .center2 {
+    display: block;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+
   p:nth-of-type(1) {
     margin-left: 5px;
     margin-right: 5px;
@@ -74,6 +86,14 @@ li {
 
   .paragraph-edit {
     width: 285px;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    text-align: justify;
+  }
+
+  .paragraph-bonus {
+    width: 190px;
     font-size: 10px;
     margin-left: 20px;
     margin-right: 5px;
@@ -98,4 +118,24 @@ li {
 
   section:nth-of-type(2) {
     margin-left: 60px;
+  }
+
+  section:nth-of-type(3) {
+    width: 200px;
+    margin-left: 20px;
+  }
+  section:nth-of-type(4) {
+    width: 200px;
+    margin-left: 30px;
+  }
+
+  section:nth-of-type(5) {
+    width: 200px;
+    margin-left: 25px;
+  }
+
+  footer {
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin: 5px 10px 0px 5px;
   }
