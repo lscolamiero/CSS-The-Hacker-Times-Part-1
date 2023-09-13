@@ -135,3 +135,31 @@ li {
     font-weight: bolder;
     text-align: center;
   }
+
+  .transition > li {
+    transition: 1s;
+  }
+
+  .transition > li:hover {
+    transform: scale(0.9); color: red;
+   }
+
+   .imganimation {
+    margin: auto;
+    animation: move-img 9s infinite;
+   }
+
+   @keyframes move-img {
+    0% {transform: translateX(0px) translateY(0);}
+    35% {transform: translateX(30px) translateY(-15px);}
+    75% {transform: translateX(-30px) translateY(15px);}
+    100% {transform: translateX(0px) translateY(0px);}
+  }
+
+  .articletransition > img {
+    transition: 1s;
+  }
+
+  .articletransition > img:hover {
+    transform: translateX(2px) translateY(2px) rotate3d(1, 2, 1, 15deg);
+  }
